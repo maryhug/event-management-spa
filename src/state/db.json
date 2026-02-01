@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Admin User",
+      "email": "admin@eventapp.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "fullName": "Guest User",
+      "email": "guest@eventapp.com",
+      "password": "guest123",
+      "role": "guest"
+    },
+    {
+      "id": "as45",
+      "fullName": "Hugo Andres",
+      "email": "hugoa@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "986d",
+      "fullName": "Maryhug",
+      "email": "maryhug@gmail.com",
+      "password": "maryhug123",
+      "role": "guest"
+    },
+    {
+      "id": "5a64",
+      "fullName": "Viviana",
+      "email": "viviana@gmail.com",
+      "password": "vivi123",
+      "role": "guest"
+    },
+    {
+      "id": "2afa",
+      "fullName": "Alejandro",
+      "email": "alejandro@gmail.com",
+      "password": "alejandro123",
+      "role": "admin"
+    }
+  ],
+  "events": [
+    {
+      "name": "JavaScript Conference 2026",
+      "description": "Annual JavaScript developers conference",
+      "date": "2026-03-15",
+      "category": "conference",
+      "location": "Medellín Convention Center",
+      "maxCapacity": 105,
+      "currentAttendees": 45,
+      "status": "active",
+      "createdBy": 1,
+      "updatedAt": "2026-02-01T17:16:42.930Z",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Web Development Workshop",
+      "description": "Hands-on SPA development workshop",
+      "date": "2026-02-20",
+      "location": "Riwi Campus",
+      "maxCapacity": 30,
+      "currentAttendees": 29,
+      "category": "workshop",
+      "status": "active",
+      "createdBy": 1,
+      "updatedAt": "2026-02-01T17:17:20.104Z"
+    },
+    {
+      "id": "3",
+      "name": "Prueba",
+      "description": "Es una prueba",
+      "date": "2026-02-04",
+      "category": "networking",
+      "location": "Medellín Convention Center",
+      "maxCapacity": 5,
+      "currentAttendees": 1,
+      "status": "active",
+      "createdBy": "1",
+      "createdAt": "2026-02-01T17:17:10.558Z",
+      "updatedAt": "2026-02-01T17:54:47.917Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "1",
+      "eventId": 1,
+      "userId": 2,
+      "registeredAt": "2026-01-15T10:30:00Z"
+    },
+    {
+      "id": "9e82",
+      "eventId": 2,
+      "userId": "1",
+      "registeredAt": "2026-02-01T17:17:20.088Z"
+    },
+    {
+      "id": "5d9b",
+      "eventId": 2,
+      "userId": "2",
+      "registeredAt": "2026-02-01T17:20:01.557Z"
+    },
+    {
+      "id": "addd",
+      "eventId": 3,
+      "userId": "2",
+      "registeredAt": "2026-02-01T17:20:11.622Z"
+    },
+    {
+      "id": "bf81",
+      "eventId": 3,
+      "userId": "5a64",
+      "registeredAt": "2026-02-01T17:53:02.006Z"
+    },
+    {
+      "id": "372e",
+      "eventId": 3,
+      "userId": "2afa",
+      "registeredAt": "2026-02-01T17:54:47.902Z"
+    }
+  ]
+}

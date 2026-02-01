@@ -1,0 +1,45 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDEs / editors
+.idea/
+.vscode/
+*.iml
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage / reports
+coverage/
+.nyc_output/
+
+# Logs and temp
+logs/
+*.log
+tmp/
+temp/
+
+# Misc
+bower_components/
+.cache/
